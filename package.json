@@ -1,0 +1,15 @@
+{
+  "name": "quiz-react-percy-jackson",
+  "version": "1.0.0",
+  "description": "A quiz of Percy Jackson and The Olympians used Node.js, Typescript and MongoDB",
+  "main": "server.js",
+  "repository": "https://github.com/rodrigozan/quiz-react-percy-jackson.git",
+  "author": "Rodrigo Zan",
+  "license": "MIT",
+  "scripts": {
+    "git_user": "git config user.name 'Rodrigo Zan' && git config user.email 'rodzandonadi@gmail.com'",
+    "add": "git add .",
+    "commit": "git commit -m 'First Commit'",
+    "push": "npm run add && npm run commit && git push origin master"
+}
+}
