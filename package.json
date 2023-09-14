@@ -7,9 +7,12 @@
   "author": "Rodrigo Zan",
   "license": "MIT",
   "scripts": {
+    "start": "PORT=4600 node ./dist/server.js",
+    "dev": "PORT=4600 nodemon ./dist/server.js",
+    "build": "tsc",
     "git_user": "git config user.name 'Rodrigo Zan' && git config user.email 'rodzandonadi@gmail.com'",
     "add": "git add .",
-    "commit": "git commit -m 'Created structury of project'",
+    "commit": "git commit -m 'Mofiying js files to ts'",
     "push": "npm run add && npm run commit && git push origin master",
     "api_folders": "mkdir src && mkdir src/controllers && mkdir src/models && mkdir src/services && mkdir config && mkdir database && mkdir utils",
     "api_files_config": "touch config/express.js && touch database/mongodb.js && touch server.js && touch .env.local && touch .env.example && touch .gitignore && touch src/routes.js",
