@@ -9,7 +9,7 @@
   "scripts": {
     "git_user": "git config user.name 'Rodrigo Zan' && git config user.email 'rodzandonadi@gmail.com'",
     "add": "git add .",
-    "commit": "git commit -m 'First Commit'",
+    "commit": "git commit -m 'Created README.md'",
     "push": "npm run add && npm run commit && git push origin master"
-}
+  }
 }
